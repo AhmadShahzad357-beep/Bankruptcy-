@@ -1,0 +1,6 @@
+category,n_features,pct_significant
+Liquidity,10,100.0
+Company Size,1,100.0
+Profitability,25,96.0
+Leverage / Solvency,16,93.75
+Efficiency,12,75.0

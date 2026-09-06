@@ -1,0 +1,4 @@
+feature_1,feature_2,correlation
+working_capital_over_total_assets,short_term_liabilities_over_total_assets,0.9988514193823625
+sales_over_total_assets,total_sales_over_total_assets,0.9978902727168412
+gross_profit_over_sales,gross_profit_plus_interest_over_sales,0.9968351773452125

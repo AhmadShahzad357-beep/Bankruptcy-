@@ -1,0 +1,3 @@
+model,threshold,accuracy,precision,recall,f1,roc_auc,pr_auc
+Baseline,0.679,0.9694,0.729,0.5022,0.5947,0.9313,0.6298
+Tuned (Optuna),0.604,0.9682,0.707,0.4933,0.5812,0.9328,0.6278

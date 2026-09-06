@@ -1,0 +1,5 @@
+model,threshold_type,threshold,accuracy,precision,recall,f1,roc_auc,pr_auc
+XGBoost,default (0.5),0.5,0.9499,0.4539,0.5911,0.5135,0.9313,0.6298
+XGBoost,tuned (validation),0.679,0.9694,0.729,0.5022,0.5947,0.9313,0.6298
+CatBoost,default (0.5),0.5,0.9116,0.293,0.6889,0.4111,0.9272,0.6115
+CatBoost,tuned (validation),0.757,0.9694,0.7554,0.4667,0.5769,0.9272,0.6115

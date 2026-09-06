@@ -1,0 +1,13 @@
+{
+  "xgboost": {
+    "n_estimators": 219,
+    "max_depth": 5,
+    "learning_rate": 0.13232888780739155,
+    "subsample": 0.9494715919118208,
+    "colsample_bytree": 0.7372901539174018,
+    "min_child_weight": 3,
+    "gamma": 1.4247793818338619,
+    "reg_alpha": 0.0039162689218335805,
+    "reg_lambda": 2.9469107380537607
+  }
+}

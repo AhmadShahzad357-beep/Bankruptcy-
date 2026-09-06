@@ -1,0 +1,2 @@
+model,cv_folds,n_trials,cv_pr_auc_before,cv_pr_auc_after,improvement_pct
+XGBoost,5,50,0.6430974414338395,0.6585027311192578,2.4
