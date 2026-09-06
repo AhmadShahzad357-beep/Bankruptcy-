@@ -64,33 +64,6 @@ bankruptcy-prediction/
 
 ---
 
-## Running it
-
-```bash
-pip install -r requirements.txt
-
-python scripts/02_data_cleaning.py     # fix the hardcoded D:/ path first, or skip to the next line
-python scripts/03_eda.py
-python scripts/04_feature_engineering.py
-python scripts/05_model_Training.py
-python scripts/06_tuning_threshold.py
-python scripts/08_shap_explainability.py
-
-streamlit run app/dashboard.py
-```
-
----
-
-## Known issues / suggested next steps
-
-- **`src/` is an empty package skeleton** — `pipeline.py`, `data/`, `features/`, `models/`, `explainability/` are all 0 bytes; all real logic lives in `scripts/` instead.
-- **Empty scaffolding:** `requirements.txt` (filled in above), `configs/config.yaml`, `data/README.md`, `tests/test_pipeline.py` were all empty — no dependency pinning, no config-driven runs, no tests.
-- **Hardcoded absolute path** in `02_data_cleaning.py` (`D:/Bankruptcy/...`) — every other script derives paths from `__file__` instead.
-- **Recall is moderate (~0.50–0.59)** — for an early-warning system this means 40–50% of actually-bankrupt companies are still missed at the reported thresholds; worth optimizing for recall/F2 if catching more true positives matters more than false alarms.
-- **~150MB of data/model files committed directly** — consider `.gitignore` + git-lfs/DVC for `data/` and `models/`.
-
----
-
-## Tech stack
+### Tech stack
 
 Python, pandas, scikit-learn, XGBoost, CatBoost, Optuna, SHAP, Streamlit, statsmodels, matplotlib.
